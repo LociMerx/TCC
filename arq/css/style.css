@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    height: 80px;
+    width: 100%;
+    background: linear-gradient(340deg, purple, blue);
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+footer h1 {
+    margin-left: 10%;
+}
+
+footer .logo{
+    margin-left: 5%;
+    border-radius: 50%;
+}
+
+footer .config {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.search-container {
+    flex: 1;
+    text-align: center;
+    margin-left: -23%;
+}
+
+.search-input {
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    font-size: 1rem;
+    width: 300px;
+    transition: border-color 0.3s ease-in-out;
+    outline: none;
+}
+
+.search-button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.temp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.one, .two, .three {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.one h3, .two h3, .three h3 {
+    margin-top: 10px;
+}
